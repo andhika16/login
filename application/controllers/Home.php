@@ -15,7 +15,7 @@ class Home extends CI_Controller
 
     public function about()
     {
-        $data['title'] = 'Dashboard';
+        $data['title'] = 'about';
         $this->load->view('templates/header', $data);
         $this->load->view('about/index');
         $this->load->view('templates/footer');
