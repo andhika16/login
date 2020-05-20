@@ -12,12 +12,4 @@ class Home extends CI_Controller
         $this->load->view('home/index');
         $this->load->view('templates/footer');
     }
-
-    public function about()
-    {
-        $data['title'] = 'about';
-        $this->load->view('templates/header', $data);
-        $this->load->view('about/index');
-        $this->load->view('templates/footer');
-    }
 }
